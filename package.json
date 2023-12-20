@@ -1,11 +1,11 @@
 {
-  "name": "hs-library",
+  "name": "@himanshu229/hs-library-js",
   "version": "0.0.1",
   "description": "A react component library",
   "scripts": {
     "rollup": "rollup -c"
   },
-  "author": "",
+  "author": "himanshu singh",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^18.2.45",
@@ -25,5 +25,11 @@
   "files": [
     "dist"
   ],
-  "type": "dist/index.d.ts"
+  "type": "dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/himanshu229/hs-library-js.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
